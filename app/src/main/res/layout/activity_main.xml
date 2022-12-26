@@ -7,6 +7,7 @@
     android:orientation="vertical"
     android:padding="20dp"
     android:gravity="top"
+    android:background="#ffcccc"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -94,7 +95,6 @@
             android:text="공개안함"/>
 
     </RadioGroup>
-
 
 
 
