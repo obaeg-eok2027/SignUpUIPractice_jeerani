@@ -38,35 +38,35 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="이메일양식으로 입력"
-        android:layout_marginTop="15dp"
+
         android:inputType="textWebEmailAddress"
         />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
+
         android:text="비밀번호"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="8글자 이상 입력"
-        android:layout_marginTop="15dp"
+
         android:inputType="textPassword"
         />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
+
         android:text="닉네임"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="한 줄로 입력"
-        android:layout_marginTop="15dp"
+
         android:singleLine="true"
         android:imeOptions="actionSearch"
         />
@@ -79,19 +79,19 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+
             android:text="남성"/>
 
        <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-           android:layout_marginTop="10dp"
+
             android:text="여성"/>
 
        <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-           android:layout_marginTop="10dp"
+
            android:enabled="false"
             android:text="공개안함"/>
 
@@ -102,15 +102,43 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:visibility=""
+
+        android:visibility="visible"
         android:text="이용약관동의"/>
 
-    <Button
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="확인"/>
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="취소" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="10dp"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="확인" />
+
+    </LinearLayout>
+
+
+
+
 
 
 
